@@ -1,11 +1,16 @@
 import * as Font from 'expo-font';
 
 export default loadFonts = async () => {
-  //await Font.loadAsync({
-  //  'Lato-Regular': require('../assets/fonts/Lato-Regular.ttf'),
-  //  'Lato-Light': require('../assets/fonts/Lato-Light.ttf'),
-  //  'Lato-Bold': require('../assets/fonts/Lato-Bold.ttf'),
-  //  'Lato-Black': require('../assets/fonts/Lato-Black.ttf'),
-  //});
+  await Font.loadAsync({
+    'Raleway-ExtraBold': require('../assets/fonts/Raleway-ExtraBold.ttf'),
+    'Raleway-Bold': require('../assets/fonts/Raleway-Bold.ttf'),
+    'Raleway-SemiBold': require('../assets/fonts/Raleway-SemiBold.ttf'),
+
+
+    'Nunito-Medium': require('../assets/fonts/Nunito-Medium.ttf'),
+    'Nunito-Bold': require('../assets/fonts/Nunito-Bold.ttf'),
+
+
+  });
   return
 };
